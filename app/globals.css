@@ -32,8 +32,10 @@ h1 em{font-style:normal;color:var(--gold)}
 .sq.chk{box-shadow:inset 0 0 0 100px rgba(194,91,74,.6)}
 .sq .dot{position:absolute;width:26%;height:26%;border-radius:50%;background:rgba(20,14,8,.35)}
 .sq .ring{position:absolute;inset:6%;border-radius:50%;border:4px solid rgba(20,14,8,.35)}
-.sq .coord{position:absolute;font-size:10px;font-family:var(--mono);opacity:.55;pointer-events:none}
-.sq .cf{right:3px;bottom:2px}.sq .cr{left:3px;top:2px}
+.sq .coord{position:absolute;font-size:13px;font-weight:700;font-family:var(--mono);pointer-events:none;line-height:1}
+.sq.l .coord{color:var(--sqD);opacity:.85}
+.sq.d .coord{color:var(--sqL);opacity:.85}
+.sq .cf{right:4px;bottom:3px}.sq .cr{left:4px;top:3px}
 .pw{color:#faf6ee;text-shadow:0 1px 2px rgba(0,0,0,.55)}
 .pb{color:#241d14;text-shadow:0 1px 1px rgba(255,255,255,.18)}
 
